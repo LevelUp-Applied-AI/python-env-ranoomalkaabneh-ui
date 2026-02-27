@@ -19,7 +19,17 @@ source .venv/bin/activate        # macOS / Linux
 # source .venv/Scripts/activate  # Windows (Git Bash)
 python -m pip install --upgrade pip
 python -m pip install -r requirements-prework.txt
+
 ```
+## About
+
+[One paragraph: who you are and what this repository is for.]
+
+## Setup
+
+```bash
+git clone https://github.com/LevelUp-Applied-AI/<your-username>-prework.git
+cd <your-username>-prework
 
 ## Submitting PRs
 
