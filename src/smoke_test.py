@@ -1,16 +1,13 @@
+import pathlib
 import pandas as pd
 
-# Load the dataset
-df = pd.read_csv("data/sample.csv")
+data_path = pathlib.Path(__file__).parent.parent / "data" / "sample.csv"
 
-# Print shape
-print("Shape:")
-print(df.shape)
+df = pd.read_csv(data_path)
 
-# Print first few rows
+print("Shape:", df.shape)
 print("\nHead:")
 print(df.head())
 
-# Print statistical summary
 print("\nDescribe:")
 print(df.describe())
